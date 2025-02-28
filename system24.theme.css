@@ -45,9 +45,9 @@
 	--txt-3: oklch(40% 0 0); /* color of muted text. */
 
 	/* accent colors */
-	--acc-0: var(--purple); /* main accent color. */
-	--acc-1: var(--purple-1); /* color of accent buttons when hovered. */
-	--acc-2: var(--purple-2); /* color of accent buttons when clicked. */
+	--acc-0: var(--cinza); /* main accent color. */
+	--acc-1: var(--cinza-1); /* color of accent buttons when hovered. */
+	--acc-2: var(--cinza-2); /* color of accent buttons when clicked. */
 
 	/* borders */
 	--border-width: 2px; /* panel border thickness. */
@@ -57,9 +57,9 @@
 
 	/* status dot colors */
 	--online-dot: var(--green); /* color of online dot. */
-	--dnd-dot: var(--pink); /* color of do not disturb dot. */
+	--dnd-dot: var(--cyan); /* color of do not disturb dot. */
 	--idle-dot: var(--yellow); /* color of idle dot. */
-	--streaming-dot: var(--purple); /* color of streaming dot. */
+	--streaming-dot: var(--cyan); /* color of streaming dot. */
 
 	/* mention/ping and message colors */
 	--mention-txt: var(--acc-0); /* color of mention text. */
@@ -79,6 +79,8 @@
 	--cyan: oklch(73% 0.12 200);
 	--yellow: oklch(78% 0.12 80);
 	--cinza: oklch(50.32% 0 0);
+	--cinza-1: oklch(67.21% 0 0);
+	--cinza-2: oklch(83.23% 0 0);
 	--green: oklch(73% 0.12 160);
 	--green-1: oklch(63% 0.12 160);
 	--green-2: oklch(53% 0.12 160);
